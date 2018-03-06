@@ -1,30 +1,30 @@
 {
-  "name": "voice2txt",
-  "version": "1.0.3",
-  "description": "Simple voice recognition based on Google API",
-  "main": "index.js",
-  "scripts": {
-    "start": "node example1.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "readme": "README.md",
-  "keywords": [
-    "voice",
-    "recognition"
-  ],
-  "author": {
-    "name": "nemethe",
-    "email": "public.nemethe@gmail.com",
-    "url": "http://nemethe.pl/"
-  },
-  "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Nemethe/voice2txt.git"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "@google-cloud/speech": "^1.1.0",
-    "event-stream": "^3.3.4",
-    "node-record-lpcm16": "^0.3.0"
-  }
+    "name": "voice2txt",
+    "version": "1.0.3",
+    "description": "Simple voice recognition based on Google API",
+    "main": "index.js",
+    "scripts": {
+        "start": "node example1.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "readme": "README.md",
+    "keywords": [
+        "voice",
+        "recognition"
+    ],
+    "author": {
+        "name": "nemethe",
+        "email": "public.nemethe@gmail.com",
+        "url": "http://nemethe.pl/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Nemethe/voice2txt.git"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@google-cloud/speech": "^1.1.0",
+        "event-stream": "^3.3.4",
+        "node-record-lpcm16": "^0.3.0"
+    }
 }

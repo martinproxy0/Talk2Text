@@ -13,7 +13,9 @@ class RecordClass {
 			countTime: false,
 			log: false
 		}, configObject);
-		this.configLPCM16 = {};
+		this.configLPCM16 = {
+			recordProgram: 'sox'
+		};
 
 		if (this.config.stopIfSilence) Object.assign(this.configLPCM16, {
 			thresholdEnd: this.config.secondsOfSilence
@@ -28,7 +30,6 @@ class RecordClass {
 
 	start() {
 		recordLPCM16.start(this.configLPCM16).pipe(this.WriteStream);
-
 		if (this.config.log) {
 			console.log('record start');
 		}

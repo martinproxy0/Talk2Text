@@ -1,0 +1,2 @@
+sox -t waveaudio "Mikrofon" outputFileName.wav
+sox -t waveaudio default .\outputFileName.wav // też działa
